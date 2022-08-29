@@ -26,3 +26,8 @@ Because of Kantorovich-Rubinstein duality, Wasserstein distance can be transform
 ![image](https://user-images.githubusercontent.com/69974410/187249561-9ad3a745-4e1c-475a-9612-e3d13a9bc528.png)
 
 (satisfies  1-Lipschitz continuity)
+
+
+Final loss
+
+![image](https://user-images.githubusercontent.com/69974410/187250240-ac965484-0634-4f22-b79f-76aaf6a5e513.png)

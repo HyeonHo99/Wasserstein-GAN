@@ -2,12 +2,7 @@ import torch
 import torch.nn as nn
 from critic import Critic
 from generator import Generator
-
-def initialize_weights(model):
-    for module in model.modules():
-        if isinstance(module,(nn.Conv2d,nn.ConvTranspose2d,nn.BatchNorm2d)):
-            nn.init.normal_(module.weight.data,0.0,0.02)
-
+from utils import initialize_weights
 
 def test():
     N, img_channel, H, W = 8, 3, 64, 64

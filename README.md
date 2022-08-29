@@ -1,7 +1,7 @@
 # Wasserstein-GAN
-Pytorch Implementation of Wasserstein GAN
+- Pytorch Implementation of Wasserstein GAN
 
-Original Paper : https://arxiv.org/pdf/1701.07875.pdf
+- Original Paper : https://arxiv.org/pdf/1701.07875.pdf
 
 
 
